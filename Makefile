@@ -19,7 +19,7 @@ install-deps:
 
 
 locale:
-	cd concurrency && django-admin.py makemessages --all
+	cd concurrency && django-admin.py makemessages -l en
 	export PYTHONPATH=${PYTHONPATH}
 	cd concurrency && django-admin.py compilemessages --settings=${DJANGO_SETTINGS_MODULE}
 
