@@ -7,5 +7,6 @@ include setup.py
 recursive-include concurrency *.py
 recursive-include concurrency/templates *.html
 recursive-include concurrency/locale *.po
+recursive-include concurrency/locale *.mo
 recursive-exclude docs *.py
 recursive-exclude tests *.*
